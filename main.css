@@ -2,7 +2,7 @@
 
 div#div1 {
   width: 400px;
-  height: 2100px ;
+  height: 4000px ;
 	background-color: rgba(34,32,36,1);
 	background: radial-gradient(circle at center, rgba(71,65,76,1) 0%,rgba(34,32,36,1) 100%);
 }
@@ -11,7 +11,7 @@ div#div2 {
 	 top: 178px;
   left: 407px;
   width :1104px;
-  height: 2100px ;
+  height: 4000PX ;
   background:  #d5e1cd ;
 }
 h1::first-letter {
@@ -24,7 +24,7 @@ h1 {
 }
 section{
 	position: top;
-	background-image: url("file:///C:/Users/DaDan/Desktop/fenni%20-%20ben%20-%20ammar/Project/2018Food_Big_sandwich_on_the_table_close_up_128377_23.jpg");
+	background-image: url("food.jpg");
 	background-image: 100%;
 }
 a:hover {
@@ -76,4 +76,61 @@ a {
   border-radius: 0 5px 5px 0;
   cursor: pointer;
   font-size: 20px;
+}
+div#money{
+	top:510px;
+	background-color:  #d5e1cd;
+	left : 30px;
+	width: 350px;
+	height: 230px;
+	margin: 15px auto;
+	position: fixed;
+	border-radius: 20%;
+}
+button#btmoney{ 
+	background-color: #FF5906;
+  border-radius: 90%;
+  position: absolute;
+  top: 190px;
+  right: 20PX;
+  width: 150px;
+  height: 40px;
+}
+.pizza{
+	left: 100px;
+	float: left;
+	margin: 70px;
+}
+#chef{
+	right: 20px;
+	position: fixed;
+}
+.sandwich{
+	left: 100px;
+	float: left;
+	margin: 70px;
+}
+.ojja{
+left: 100px;
+	float: left;
+	margin: 70px;
+
+}
+p{
+	 position: absolute;
+	top: 100px;
+	left: 17px;
+}
+h5{
+	position: absolute;
+	color: white;
+	top: 50px;
+	left: 23px;
+	font-size: 20px;
+}
+h5::first-letter{
+	color: gray;
+}
+img {
+  border-radius: 50%;
 }
