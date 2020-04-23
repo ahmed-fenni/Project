@@ -1,0 +1,22 @@
+body{
+     background-image : url('test.jpg');
+}
+.container {
+ background-color: transparent;
+ color : snow;	
+  top: 10%;
+  left: 40%;
+  position: fixed;
+   }
+h1 {
+text-align: center;
+	letter-spacing: 10px;
+	font-size : 70px;
+	font-weight:700px;
+}
+form {
+	margin : 0;
+}
+button {
+align-self: right;
+}

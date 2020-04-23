@@ -1,0 +1,79 @@
+
+
+div#div1 {
+  width: 400px;
+  height: 2100px ;
+	background-color: rgba(34,32,36,1);
+	background: radial-gradient(circle at center, rgba(71,65,76,1) 0%,rgba(34,32,36,1) 100%);
+}
+div#div2 {
+  position: absolute;
+	 top: 178px;
+  left: 407px;
+  width :1104px;
+  height: 2100px ;
+  background:  #d5e1cd ;
+}
+h1::first-letter {
+color: grey; 
+	}
+h1 {
+	font-size: 40px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: white;
+}
+section{
+	position: top;
+	background-image: url("file:///C:/Users/DaDan/Desktop/fenni%20-%20ben%20-%20ammar/Project/2018Food_Big_sandwich_on_the_table_close_up_128377_23.jpg");
+	background-image: 100%;
+}
+a:hover {
+    color: black;
+    background: white;  
+    padding: 20px;
+}
+a {
+  background-color:  	#808080;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 80%;
+  border: 3px solid  #464944;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color:  #464944;
+}
+
+.searchButton {
+  width: 70px;
+  height: 36px;
+  border: 1px solid  #464944;
+  background:  #464944;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
