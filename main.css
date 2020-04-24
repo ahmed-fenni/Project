@@ -2,7 +2,7 @@
 
 div#div1 {
   width: 400px;
-  height: 4000px ;
+  height: 4400px ;
 	background-color: rgba(34,32,36,1);
 	background: radial-gradient(circle at center, rgba(71,65,76,1) 0%,rgba(34,32,36,1) 100%);
 }
@@ -11,7 +11,7 @@ div#div2 {
 	 top: 178px;
   left: 407px;
   width :1104px;
-  height: 4000PX ;
+  height: 4400PX ;
   background:  #d5e1cd ;
 }
 h1::first-letter {
@@ -85,7 +85,7 @@ div#money{
 	height: 230px;
 	margin: 15px auto;
 	position: fixed;
-	border-radius: 20%;
+	border-radius: 5%;
 }
 button#btmoney{ 
 	background-color: #FF5906;
@@ -96,7 +96,17 @@ button#btmoney{
   width: 150px;
   height: 40px;
 }
-.pizza{
+#delete{
+	background-color: #FF5906;
+  border-radius: 90%;
+  position: absolute;
+  top: 190px;
+  left: 20PX;
+  width: 150px;
+  height: 40px;
+
+}
+.pizza,.sandwich,.ojja{
 	left: 100px;
 	float: left;
 	margin: 70px;
@@ -105,17 +115,7 @@ button#btmoney{
 	right: 20px;
 	position: fixed;
 }
-.sandwich{
-	left: 100px;
-	float: left;
-	margin: 70px;
-}
-.ojja{
-left: 100px;
-	float: left;
-	margin: 70px;
 
-}
 p{
 	 position: absolute;
 	top: 100px;
@@ -133,4 +133,16 @@ h5::first-letter{
 }
 img {
   border-radius: 50%;
+}
+#total {
+  position:absolute;
+  top:150px;
+  left:230px;
+  font-size: 20px;
+}
+#total2 {
+  position:absolute;
+  top:110px;
+  left:210px;
+  font-size: 20px;
 }
